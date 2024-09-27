@@ -1,0 +1,38 @@
+// adapted from http://people.sc.fsu.edu/~jburkardt/data/obj/cube.obj
+
+
+
+v 0.0 0.0 0.0 // dummy for 1-based offset
+
+v  -2.0  -2.0  -2.0
+v  -2.0  -2.0   2.0
+v  -2.0   2.0  -2.0
+v  -2.0   2.0   2.0
+v   2.0  -2.0  -2.0
+v   2.0  -2.0   2.0
+v   2.0   2.0  -2.0
+v   2.0   2.0   2.0
+
+// vn  0.0  0.0  1.0
+// vn  0.0  0.0 -1.0
+// vn  0.0  1.0  0.0
+// vn  0.0 -1.0  0.0
+// vn  1.0  0.0  0.0
+// vn -1.0  0.0  0.0
+
+f 1 5 7 // back
+f 1 7 3
+f 1 3 4 // left
+f 1 4 2
+f 3 7 8 // top
+f 3 8 4
+f 5 8 7 // right
+f 5 6 8
+f 1 6 5 // bottom
+f 1 2 6
+f 2 8 6 // forward
+f 2 4 8
+
+
+b   0.5  0.5 1.5 0.7
+b  -0.5 -0.5 1.5 0.7

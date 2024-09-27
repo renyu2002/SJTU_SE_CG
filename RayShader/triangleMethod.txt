@@ -1,0 +1,4 @@
+
+only balls: 			60fps
+Möller Trumbore:		20fps
+baycentric coordinates:	15fps
