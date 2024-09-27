@@ -1,2 +1,0 @@
-D:\zhujiao\demo\SimpleScene\x64\Debug\glfw3.dll
-D:\zhujiao\demo\SimpleScene\SimpleScene\x64\Debug\SimpleSc.2A2CE299.Up2Date
