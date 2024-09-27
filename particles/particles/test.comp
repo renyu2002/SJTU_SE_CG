@@ -1,0 +1,32 @@
+#version 450 core
+
+layout(std430, binding = 0) buffer ppos
+{
+	vec2 pos[4];
+};
+layout(std430, binding = 1) buffer pvel
+{
+	vec2 vel[4];
+};
+layout(location=0)uniform float dt;
+layout(local_size_x = 1, local_size_y = 1) in;
+
+void main() {
+
+	// base pixel colour for image
+	vec2 cvel=vel[gl_GlobalInvocationID.x];
+	vec2 cpos=pos[gl_GlobalInvocationID.x];
+	cpos = cpos+cvel*dt;
+	
+	if(abs(cpos.x)>1)
+	{
+		cvel=vec2(-cvel.x,cvel.y);
+	}
+	if(abs(cpos.y)>1)
+	{
+		cvel=vec2(cvel.x,-cvel.y);
+	}
+	vel[gl_GlobalInvocationID.x]=cvel;
+	pos[gl_GlobalInvocationID.x]=cpos;
+
+}
