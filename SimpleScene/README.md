@@ -132,7 +132,11 @@ vcpkg：Could not find PowerShell Core（Building package libwebp:x64-windows fa
 
 ### 通过 vcpkg 配置环境时无需对 Visual Studio 2022 进行额外操作
 
-# 3. 注意事项
+# 3. 效果展示
+
+![img](SimpleScene.png)
+
+# 4. 注意事项
 
 1. 使用 visual studio 2022 打开项目的方式为`.sln`文件
 
