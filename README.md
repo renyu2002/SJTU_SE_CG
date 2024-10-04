@@ -30,6 +30,12 @@ a program of simple cs particles
 
 简单的 `OpenGL` 场景，用于对 `OpenGL` 框架的初步了解
 
+# model
+
+## obj
+
+简单的`.obj`类型模型文件，可用作实验模型
+
 # request
 * imgui
 * glfw
