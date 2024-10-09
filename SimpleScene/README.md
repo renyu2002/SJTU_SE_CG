@@ -140,11 +140,10 @@ vcpkg：Could not find PowerShell Core（Building package libwebp:x64-windows fa
 
 1. 使用 visual studio 2022 打开项目的方式为`.sln`文件
 
-2. 统一使用`Debug`和`x64`的方式进行调试
+2. 统一使用`x64`的方式进行调试
 
 3. 修改代码后调试不通过的话，不妨试一试删除项目文件夹里的`x64`文件夹再重新进行调试
 
 4. 项目中的`.h` `.cpp` `.vs` `.fs`文件（不包含`glad.c`等）与环境配置无关，成功配置环境后，可以将代码复制在已成功配置环境的项目中
 
-
-
+5. 一切以`Canvas`上的要求为准
