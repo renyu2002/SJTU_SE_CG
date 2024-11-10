@@ -42,7 +42,11 @@ a program of simple cs particles
 
 #### 圣诞树模型
 
+![](christmas_tree.png)
+
 #### 桌子模型
+
+![](table_v1.png)
 
 # request
 * imgui
