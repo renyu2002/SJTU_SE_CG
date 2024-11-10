@@ -36,6 +36,14 @@ a program of simple cs particles
 
 简单的`.obj`类型模型文件，可用作实验模型
 
+### 带材质的obj模型
+
+带有`.mtl`文件提供的材质信息
+
+#### 圣诞树模型
+
+#### 桌子模型
+
 # request
 * imgui
 * glfw
