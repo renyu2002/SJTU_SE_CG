@@ -30,6 +30,10 @@ a program of simple cs particles
 
 简单的 `OpenGL` 场景，用于对 `OpenGL` 框架的初步了解
 
+## objLoader
+
+简单的`.obj .mtl`模型导入，仅供参考
+
 # model
 
 ## obj
