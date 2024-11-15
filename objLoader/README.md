@@ -10,4 +10,4 @@ Assimp库调用mtl加载obj模型: https://blog.csdn.net/weixin_39015733/article
 
 OBJ模型文件与MTL材质文件介绍: https://blog.csdn.net/newchenxf/article/details/121394626
 
-Learn OpenGL Assimp: https://learnopengl-cn.github.io/03%20Model%20Loading/01%20Assimp/
+[Learn OpenGL](https://learnopengl-cn.github.io/): assimp/mesh/model/depth testing/blending/...
