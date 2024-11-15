@@ -112,7 +112,6 @@ private:
                 // a vertex can contain up to 8 different texture coordinates. We thus make the assumption that we won't 
                 // use models where a vertex can have multiple texture coordinates so we always take the first set (0).
                 vec.x = mesh->mTextureCoords[0][i].x;
-                //==问题出在这里了===
                 vec.y = mesh->mTextureCoords[0][i].y;
                 vertex.TexCoords = vec;
                 // tangent
@@ -146,7 +145,7 @@ private:
         // diffuse: texture_diffuseN
         // specular: texture_specularN
         // normal: texture_normalN
-        //读取mtl中的kd
+        //璇诲彇mtl涓殑kd
         Material mat;
         aiColor3D color;
         float Ns;
