@@ -66,6 +66,10 @@ OBJ模型文件与MTL材质文件介绍: https://blog.csdn.net/newchenxf/article
 
 ![](table_v1.png)
 
+#### 中式书桌模型
+
+![](table_and_chair_with_pillow.png)
+
 # request
 * imgui
 * glfw
