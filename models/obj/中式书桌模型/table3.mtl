@@ -1,0 +1,22 @@
+# Blender 4.5.3 LTS MTL File: 'table3.blend'
+# www.blender.org
+
+newmtl pillow
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 2
+map_Kd C:/Users/Ruin/Desktop/中式书桌模型-3ds/86158.3ds/pillow.jpg
+map_d C:/Users/Ruin/Desktop/中式书桌模型-3ds/86158.3ds/pillow.jpg
+
+newmtl wood
+Ns 705.600098
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 2
+map_Kd C:/Users/Ruin/Desktop/中式书桌模型-3ds/86158.3ds/wood.jpg
+map_d C:/Users/Ruin/Desktop/中式书桌模型-3ds/86158.3ds/wood.jpg
