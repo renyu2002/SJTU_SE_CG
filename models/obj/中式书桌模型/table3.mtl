@@ -8,8 +8,8 @@ Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 illum 2
-map_Kd C:/Users/Ruin/Desktop/中式书桌模型-3ds/86158.3ds/pillow.jpg
-map_d C:/Users/Ruin/Desktop/中式书桌模型-3ds/86158.3ds/pillow.jpg
+map_Kd pillow.jpg
+map_d pillow.jpg
 
 newmtl wood
 Ns 705.600098
@@ -18,5 +18,5 @@ Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 illum 2
-map_Kd C:/Users/Ruin/Desktop/中式书桌模型-3ds/86158.3ds/wood.jpg
-map_d C:/Users/Ruin/Desktop/中式书桌模型-3ds/86158.3ds/wood.jpg
+map_Kd wood.jpg
+map_d wood.jpg
