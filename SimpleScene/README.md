@@ -77,6 +77,19 @@ vcpkg integrate install
 vcpkg install glfw3:x64-windows glad:x64-windows imgui[core,opengl3-binding,glfw-binding]:x64-windows
 vcpkg install assimp:x64-windows eigen3:x64-windows
 ```
+如果在安装过程中出现如下的报错:
+```
+......
+error: building eigen3:x64-windows failed with: BUILD_FAILED
+See https://learn.microsoft.com/vcpkg/troubleshoot/build-failures?WT.mc_id=vcpkg_inproduct_cli for more information.
+Elapsed time to handle eigen3:x64-windows: 16 s
+Please ensure you're using the latest port files with `git pull` and `vcpkg update`.
+Then check for known issues at:
+  https://github.com/microsoft/vcpkg/issues?q=is%3Aissue+is%3Aopen+in%3Atitle+eigen3
+You can submit a new issue at:
+  https://github.com/microsoft/vcpkg/issues/new?title=%5Beigen3%5D%20build%20error%20on%20x64-windows&body=Copy%20issue%20body%20from%20D%3A%2Fvcpkg%2Fvcpkg%2Finstalled%2Fvcpkg%2Fissue_body.md
+```
+可参考[eigen3 build error on x64-windows #47599](https://github.com/microsoft/vcpkg/issues/47599)
 
 如果在安装过程中出现长时间卡顿或者出现类似于如下的情况：
 ```
