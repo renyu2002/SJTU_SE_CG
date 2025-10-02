@@ -76,6 +76,7 @@ For more help (including examples) see https://learn.microsoft.com/vcpkg
 vcpkg integrate install
 vcpkg install glfw3:x64-windows glad:x64-windows imgui[core,opengl3-binding,glfw-binding]:x64-windows
 vcpkg install assimp:x64-windows eigen3:x64-windows
+vcpkg install glm:x64-windows
 ```
 如果在安装过程中出现如下的报错:
 ```
@@ -138,6 +139,7 @@ vcpkg：Could not find PowerShell Core（Building package libwebp:x64-windows fa
   vcpkg integrate install
   vcpkg install glfw3:x64-windows glad:x64-windows imgui[core,opengl3-binding,glfw-binding]:x64-windows
   vcpkg install assimp:x64-windows eigen3:x64-windows
+  vcpkg install glm:x64-windows
   ```
 
   若没有任何报错即安装成功
