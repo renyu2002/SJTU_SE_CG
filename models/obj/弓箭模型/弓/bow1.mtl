@@ -1,0 +1,12 @@
+# Blender 4.5.3 LTS MTL File: 'bow1.blend'
+# www.blender.org
+
+newmtl xyc4d_0049
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 2
+map_Kd xyc4d_0023_n.png
+map_d xyc4d_0023.png

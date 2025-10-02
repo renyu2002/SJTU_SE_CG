@@ -1,0 +1,12 @@
+# Blender 4.5.3 LTS MTL File: 'arrow1.blend'
+# www.blender.org
+
+newmtl xyc4d_0067
+Ns 200.000000
+Ka 0.630000 0.630000 0.630000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd xyc4d_0013_n.png
+map_d xyc4d_0013.png
