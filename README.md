@@ -84,6 +84,14 @@ OBJ模型文件与MTL材质文件介绍: https://blog.csdn.net/newchenxf/article
 
 ![](bow.png)
 
+##### 箭
+
+![](arrow.png)
+
+##### 箭袋
+
+![](quiver.png)
+
 # request
 * imgui
 * glfw
