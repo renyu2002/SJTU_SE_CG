@@ -74,6 +74,10 @@ OBJ模型文件与MTL材质文件介绍: https://blog.csdn.net/newchenxf/article
 
 ![](bookcase.png)
 
+#### 中式台灯模型
+
+![](lamp.png)
+
 # request
 * imgui
 * glfw
