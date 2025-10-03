@@ -78,6 +78,12 @@ OBJ模型文件与MTL材质文件介绍: https://blog.csdn.net/newchenxf/article
 
 ![](lamp.png)
 
+#### 弓箭模型
+
+##### 弓
+
+![](bow.png)
+
 # request
 * imgui
 * glfw
